@@ -1,0 +1,39 @@
+#location {
+    color: blue;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+}
+
+Label#thumbnail {
+    margin-bottom: 20px;
+    border: 1px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+Label#thumbnail input {
+    display: none;
+}
+
+Label#thumbnail.has-thumbnail {
+    border: 0;
+}
+
+Label#thumbnail.has-thumbnail img {
+    display: none;
+}
+
+.container > .event-validation {
+    margin-top: 12px;
+}
+
+.submit-button {
+    color: red;
+}
